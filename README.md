@@ -1,4 +1,4 @@
-# Amazon Creators API PHP Client (PHP 7 Compatible)
+# Amazon Creators API Client (PHP 7 Compatible)
 
 A lightweight, zero-dependency PHP client for the unified **Amazon Creators API**. 
 
