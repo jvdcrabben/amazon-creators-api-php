@@ -24,7 +24,7 @@ This repository provides a **single-file, zero-dependency alternative** built en
 Simply copy the `AmazonCreatorsApiClient.php` class file into your project structure and include it:
 
 ```php
-require_once __DIR__ . '/path/to/AmazonCreatorsApiClient.php';
+require_once __DIR__ . '/path/to/amazon-creators-api.php';
 ```
 
 ## Initialization
