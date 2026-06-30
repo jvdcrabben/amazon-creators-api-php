@@ -6,7 +6,7 @@ A lightweight, zero-dependency PHP client for the unified **Amazon Creators API*
 
 Amazon's official PHP SDK for the Creators API strictly requires **PHP 8.1 or higher** and forces a heavy footprint of external Composer dependencies (such as modern Guzzle environments). 
 
-For production environments locked into **PHP 7.x**, or legacy systems where adding large dependency trees isn't viable, the official SDK cannot be used. This was the case for [World History Encyclopedia](https://www.worldhistory.org), for which we initially created this library since using the old Product Advertising API for over 17 years.
+For production environments locked into **PHP 7.x**, or legacy systems where adding large dependency trees isn't viable, neither the official SDK nor other third-party SDKs can be used. This was the case for [World History Encyclopedia](https://www.worldhistory.org), for which we initially created this library since using the old Product Advertising API for over 17 years.
 
 This repository provides a **single-file, zero-dependency alternative** built entirely on native PHP `cURL` functions. It is fully backwards-compatible with PHP 7 while perfectly mapping the modern structural requirements of the Amazon Creators API.
 
